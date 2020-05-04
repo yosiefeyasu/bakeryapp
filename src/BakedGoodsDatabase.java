@@ -93,7 +93,7 @@ public class BakedGoodsDatabase {
             for (String j: i.getDietRest()){
                 if (j.contains(dietRest)){
                     tempArray.add(i.getName());
-                    System.out.println(i.getName()+"\nDR: "+i.getDietRest()+"\nPrice: $"+i.getPrice()+"\nStock: "+i.getQtyInStock());
+                    System.out.println(i.getName()+"\nDR: "+i.getDietRest()+"\nPrice: $"+i.getPrice()+"\nStock: "+i.getQtyInStock()+"\nExpires: "+i.getExpDate());
 
                 }
             }
